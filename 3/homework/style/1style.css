@@ -1,0 +1,61 @@
+body {
+  font-size: medium;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.tittle1 {
+  color: crimson;
+  text-align: center;
+  background-color: deepskyblue;
+}
+.tittle2 {
+  text-align: right;
+  color: goldenrod;
+  background-color: forestgreen;
+}
+.tittle3 {
+  text-align: unset;
+  color: chartreuse;
+  background-color: fuchsia;
+}
+.text1 {
+  text-decoration: darkviolet;
+}
+ul li {
+  font-weight: lighter;
+  word-spacing: 1px;
+  vertical-align: middle;
+  font-style: italic;
+}
+div {
+  font-size: medium;
+  text-decoration: gray;
+  background-color: rgb(213, 238, 241);
+}
+[href] {
+  color: coral;
+  font-size: larger;
+}
+.text2 {
+  border-style: dotted;
+  border-color: khaki;
+}
+#text3 {
+  border-style: double;
+  border-color: maroon;
+  background-color: teal;
+}
+a {
+  border-style: double;
+  border-color: tomato;
+}
+table,
+th,
+td {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  padding: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+}

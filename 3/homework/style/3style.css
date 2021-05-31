@@ -1,0 +1,34 @@
+body {
+  text-align: center;
+  font-size: 19 px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tittle1 {
+  color: crimson;
+  text-align: center;
+}
+.tittle2 {
+  color: goldenrod;
+  text-align: justify;
+}
+.tittle3 {
+  color: chartreuse;
+  text-align: end;
+}
+[href] {
+  color: blueviolet;
+  font-size: x-large;
+}
+#text3 {
+  border-style: outset;
+  border-color: orchid;
+}
+.text2 {
+  border-style: ridge;
+  border-color: purple;
+  background-color: silver;
+}
+a {
+  border-style: inset;
+  border-color: turquoise;
+}
