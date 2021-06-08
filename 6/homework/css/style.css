@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.d-flex {
+  display: flex;
+}
+.menu-items {
+  list-style-type: none;
+}
+.f-direction-row {
+  flex-direction: row;
+}
+.logo {
+  width: 25%;
+}
+.menu {
+  width: 50%;
+  padding-top: 55px;
+}
+.j-content-around {
+  justify-content: space-around;
+}
+.link-button {
+  background-color: #ff817e;
+  border-radius: 0;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 0.8;
+  text-transform: uppercase;
+  max-width: 170px;
+  padding: 20px 15px;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+.banner {
+  background-image: url("leaf.png");
+  background-repeat: no-repeat;
+  background-size: 12.5%;
+  background-position-x: left;
+  background-position-y: center;
+}
+.banner .leospa-img {
+  width: 43.4%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.banner {
+  padding-top: 12%;
+  padding-right: 0px;
+  padding-bottom: 12%;
+  padding-left: 0px;
+}
+.spa-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-style: none;
+}
+.section {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+.f-direction-column {
+  flex-direction: column;
+}
+.contents {
+  max-width: 50%;
+}
+.about {
+  text-align: center;
+  padding-top: 12%;
+  padding-right: 0px;
+  padding-bottom: 12%;
+  padding-left: 0px;
+  max-height: 450px;
+}
+.margin-auto {
+  margin-top: auto !important;
+  margin-right: auto !important;
+  margin-bottom: auto !important;
+  margin-left: auto !important;
+}
+.f-modify {
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%;
+}
+.button-link {
+  background-color: #ff817e;
+  border-radius: 0;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 0.8;
+  text-transform: uppercase;
+  min-width: 170px;
+  padding: 20px 15px 20px 15px;
+  border-radius: 50px;
+}
+.butterfly-img .about-heading {
+  max-width: 84px;
+  margin: 0 auto 40px auto;
+}
+.about-heading {
+  margin-bottom: 70px;
+  position: relative;
+  text-align: center;
+}
+.service-img-mod {
+  padding-left: 5px;
+}
+.service {
+  padding: 50px 0px 50px 0px;
+}
+.produres {
+  padding: 50px 0px 150px 0px;
+  text-align: center;
+}
+.produres-heading {
+  padding-bottom: 100px;
+}
+.posts {
+  width: 333px;
+}
+.f-wrap {
+  flex-wrap: wrap;
+}
+.post {
+  border: 1px solid #e3e6ea;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.img-post {
+  width: 290.5px;
+}
+.highlight {
+  text-align: center;
+  background-color: #fff9f8;
+}
+.img-quote {
+  width: 59px;
+  margin: 0 auto 40px auto;
+}
+.member {
+  width: 330px;
+}
+.j-content-s-bet {
+  justify-content: space-between;
+}
