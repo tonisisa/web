@@ -1,0 +1,384 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .col-1 {
+        flex-basis: 8.33333%;
+    }
+    
+    .col-2 {
+        flex-basis: 16.66667%;
+    }
+    
+    .col-3 {
+        flex-basis: 25%;
+    }
+    
+    .col-4 {
+        flex-basis: 33.33333%;
+    }
+    
+    .col-5 {
+        flex-basis: 41.66667%;
+    }
+    
+    .col-6 {
+        flex-basis: 50%;
+    }
+    
+    .col-7 {
+        flex-basis: 58.33333%;
+    }
+    
+    .col-8 {
+        flex-basis: 66.66667%;
+    }
+    
+    .col-9 {
+        flex-basis: 75%;
+    }
+    
+    .col-10 {
+        flex-basis: 83.33333%;
+    }
+    
+    .col-11 {
+        flex-basis: 91.66667%;
+    }
+    
+    .col-12 {
+        flex-basis: 100%;
+    }
+    
+    body {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #888;
+    }
+    
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1320px;
+    }
+        
+    .text-center {
+        text-align: center!important;
+        font-size: 25px;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    .l-row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .text-uppercase {
+        text-transform: uppercase;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .text-center>.text-uppercase {
+        font-weight: 700px;
+    }
+    
+    a {
+        color: black;
+    }
+    
+    .l-row>ul {
+        list-style: none;
+    }
+    
+    .header {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+        border-bottom: 1px solid rgba(0, 0, 0, .1);
+        display: block;
+        position: relative;
+    }
+    
+    .form-control:focus {
+        outline: none;
+        border: 1px solid black;
+    }
+    
+    .search-form {
+        position: relative;
+        left: 35px;
+    }
+    
+    .search-form [class^="bi"] {
+        position: absolute;
+        top: 8px;
+        left: 15px;
+        font-size: 12px;
+    }
+    
+    .form-control {
+        border-radius: 30px;
+        padding-left: 40px;
+        padding-right: 50px;
+        height: 30px;
+        border: 1px solid #ced4da;
+    }
+    
+    .content {
+        border: 1px solid #36383f;
+        border-radius: 20px;
+        width: 94%;
+        height: 91%;
+        background-color: #f5f6fa;
+        overflow: hidden;
+    }
+    /*  */
+    
+    .nav {
+        /* border: 1px solid gray; */
+        position: relative;
+    }
+    
+    .nav-toggle {
+        position: absolute;
+        cursor: pointer;
+        font-size: 25px;
+    }
+    
+    .nav-toggle>.close {
+        display: none;
+    }
+    
+    .nav-checkbox {
+        display: none;
+    }
+    
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        position: absolute;
+        top: 25px;
+        right: 10px;
+    }
+    
+    .nav-menu>li {
+        display: none;
+        text-decoration: none;
+        padding-top: 20px;
+    }
+    
+    .nav-menu>li>a {
+        text-decoration: none;
+        font-size: 15px;
+    }
+    
+    #nav-checkbox:checked~ul.nav-menu li {
+        display: block;
+    }
+    
+    #nav-checkbox:checked~label.nav-toggle .close {
+        display: block;
+    }
+    
+    #nav-checkbox:checked~label.nav-toggle .menu {
+        display: none;
+    }
+    /* view */
+    /* trending */
+    
+    .title {
+        color: black;
+        font-size: 40px;
+        margin: 40px 0 40px 0;
+    }
+    
+    .img-slides>img {
+        width: 20%;
+        border-radius: 7px;
+    }
+    
+    .style-dot {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .flex-slides {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        margin: 40px;
+    }
+    
+    .img-content {
+        color: black;
+        position: relative;
+    }
+    
+    .img-content>.heading {
+        font-weight: 500px;
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    
+    .img-content>p {
+        color: gray;
+        margin-top: 20px;
+    }
+    
+    .post-meta span {
+        font-size: 13px;
+        color: #888;
+    }
+    
+    .author {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        position: relative;
+    }
+    
+    .pic {
+        border-radius: 50%;
+        max-width: 25%;
+    }
+    
+    .author-text {
+        position: absolute;
+        left: 80px;
+        top: 15px;
+    }
+    
+    .author-text p {
+        font-size: 13px;
+        color: #888;
+    }
+    
+    .flex-items {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 40px;
+        justify-content: space-between;
+    }
+    
+    .flex-col {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .image>img {
+        width: 90%;
+        height: 70%;
+        border-radius: 7px;
+    }
+    
+    .img-list {
+        margin-top: -90px;
+        width: 90%;
+    }
+    
+    .post-meta-list:not(span) {
+        color: black;
+        margin-bottom: 5px;
+    }
+    
+    .img-list>.heading {
+        color: black;
+        font-size: 20px;
+        margin-bottom: 7px;
+    }
+    /*  */
+    /* Hide the images by default */
+    
+    .mySlides {
+        display: none;
+    }
+    /* Next & previous buttons */
+    
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        color: red;
+    }
+    /* Position the "next button" to the right */
+    
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    /* On hover, add a black background color with a little bit see-through */
+    
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    /* The dots/bullets/indicators */
+    
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    
+    .active,
+    .dot:hover {
+        background-color: red;
+    }
+    /* Fading animation */
+    
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+        position: relative;
+    }
+    
+    @-webkit-keyframes fade {
+        from {
+            opacity: .5
+        }
+        to {
+            opacity: 1
+        }
+    }
+    
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
